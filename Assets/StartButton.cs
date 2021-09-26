@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class StartButton : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public void ToSampleScene()
+    {
+      SceneManager.LoadScene("SampleScene");
+    }
+ 
+    public void ToStartButton()
+    {
+      SceneManager.LoadScene("Start");
+    }
+}
